@@ -1,0 +1,1 @@
+plus git clone https://github.com/maltize/sublime-text-2-ruby-tests.git RubyTest
