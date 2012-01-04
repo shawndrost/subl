@@ -1,4 +1,4 @@
 {
-	"last_test_file": "testapp_spec.rb",
-	"last_test_run": "cd /Users/shawndrost/workspace/slashb_client/ && rspec spec/integration/testapp_spec.rb -l 14"
+	"last_test_file": "slashb_server_app_spec.rb",
+	"last_test_run": "cd /Users/shawndrost/workspace/slashb_server/ && bundle exec rspec spec/requests/slashb_server_app_spec.rb -l 19"
 }
