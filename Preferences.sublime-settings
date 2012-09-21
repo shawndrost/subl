@@ -1,0 +1,13 @@
+{
+	"auto_complete": false,
+	"caret_style": "smooth",
+	"font_size": 18.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"word_wrap": false
+}

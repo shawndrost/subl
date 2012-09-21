@@ -7,10 +7,18 @@
      "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
   },
   { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace"} },
+  { "keys": ["super+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
 
   { "keys": ["ctrl+b"], "command": "next_bookmark" },
   { "keys": ["ctrl+shift+b"], "command": "prev_bookmark" },
   { "keys": ["super+b"], "command": "toggle_bookmark" },
   { "keys": ["super+shift+b"], "command": "clear_bookmarks" },
-  { "keys": ["alt+b"], "command": "select_all_bookmarks" }
+  { "keys": ["alt+b"], "command": "select_all_bookmarks" },
+
+  { "keys": ["super+ctrl+d"], "command": "duplicate_line" }, //override dumb osx dictionary
+  
+  { "keys": ["ctrl+shift+r"], "command": "reindent" , "args": {"single_line": false}},
+
+  // duplicated from defaults to overwrite test framework command
+  { "keys": ["super+shift+t"], "command": "reopen_last_file" }
 ]

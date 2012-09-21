@@ -8,6 +8,9 @@
 	"font_size": 15.0,
 	"highlight_line": true,
 	"tab_size": 2,
+  "highlight_line": true,
+  "caret_style": "smooth",
 	"translate_tabs_to_spaces": true,
+  "auto_complete": false,
   "word_wrap": false
 }
